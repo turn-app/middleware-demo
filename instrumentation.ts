@@ -6,6 +6,8 @@ export function register() {
         projectName: "turn-demo",
         serviceName: "turn-demo",
         accountKey: "tsxvgwovbtqqojghcmkvfwgscjzwdreopzed",
-        target: "https://qsvae.middleware.io:443",
+        target: "vercel",
     });
+
+    tracker.info('ONE TIME INSTRUMENTATION DONE');
 }
